@@ -1,0 +1,79 @@
+{
+  "code": "ldoorkeyhole",
+  "replaceable": 120,
+  "requiredMiningTier": 169,
+  "variantgroups": [
+    { "code": "rock", "loadFromProperties": "game:block/rock" },
+    { "code": "color", "loadFromProperties": "linteractables:doorcolors" }
+  ],
+  "creativeinventory": {
+    "general": ["*"],
+    "construction": ["*"],
+    "linteractables": ["*"]
+  },
+  "shape": { "base": "block/basic/cube" },
+  "drawtype": "cube",
+  "heldTpIdleAnimation": "holdbothhandslarge",
+  "heldRightReadyAnimation": "heldblockready",
+  "heldTpUseAnimation": "twohandplaceblock",
+  "textures": {
+    "all": {
+      "base": "game:block/stone/polishedrock/{rock}",
+      "overlays": [
+        "linteractables:block/overlay/doorblocks/doorblock-{color}-A",
+        "linteractables:block/overlay/doorblocks/doorblock-keyhole"
+      ],
+      "alternates": [
+        {
+          "base": "game:block/stone/polishedrock/{rock}",
+          "overlays": [
+            "linteractables:block/overlay/doorblocks/doorblock-{color}-B",
+            "linteractables:block/overlay/doorblocks/doorblock-keyhole"
+          ]
+        },
+        {
+          "base": "game:block/stone/polishedrock/{rock}",
+          "overlays": [
+            "linteractables:block/overlay/doorblocks/doorblock-{color}-C",
+            "linteractables:block/overlay/doorblocks/doorblock-keyhole"
+          ]
+        },
+        {
+          "base": "game:block/stone/polishedrock/{rock}",
+          "overlays": [
+            "linteractables:block/overlay/doorblocks/doorblock-{color}-D",
+            "linteractables:block/overlay/doorblocks/doorblock-keyhole"
+          ]
+        },
+        {
+          "base": "game:block/stone/polishedrock/{rock}",
+          "overlays": [
+            "linteractables:block/overlay/doorblocks/doorblock-{color}-E",
+            "linteractables:block/overlay/doorblocks/doorblock-keyhole"
+          ]
+        },
+        {
+          "base": "game:block/stone/polishedrock/{rock}",
+          "overlays": [
+            "linteractables:block/overlay/doorblocks/doorblock-{color}-F",
+            "linteractables:block/overlay/doorblocks/doorblock-keyhole"
+          ]
+        }
+      ]
+    }
+  },
+  "sounds": {
+    "walk": "game:walk/stone",
+    "byTool": {
+      "Pickaxe": {
+        "hit": "game:block/rock-hit-pickaxe",
+        "break": "game:block/rock-break-pickaxe"
+      }
+    }
+  },
+  "tpHandTransform": {
+    "translation": { "x": -1.23, "y": -0.91, "z": -0.8 },
+    "rotation": { "x": -2, "y": 25, "z": -78 },
+    "scale": 0.4
+  }
+}

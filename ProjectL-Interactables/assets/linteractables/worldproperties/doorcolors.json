@@ -1,0 +1,155 @@
+{
+  "code": "doorcolors",
+  "variants": [
+    {
+      "Code": "white",
+      "keyID": "1",
+      "colorHEX": "#FFFFFF"
+    },
+    {
+      "Code": "black",
+      "keyID": "2",
+      "colorHEX": "#000000"
+    },
+    {
+      "Code": "red",
+      "keyID": "3",
+      "colorHEX": "#FF0000"
+    },
+    {
+      "Code": "dark_red",
+      "keyID": "4",
+      "colorHEX": "#8B0000"
+    },
+    {
+      "Code": "orange",
+      "keyID": "5",
+      "colorHEX": "#FFA500"
+    },
+    {
+      "Code": "yellow",
+      "keyID": "6",
+      "colorHEX": "#FFFF00"
+    },
+    {
+      "Code": "lime",
+      "keyID": "7",
+      "colorHEX": "#32CD32"
+    },
+    {
+      "Code": "green",
+      "keyID": "8",
+      "colorHEX": "#008000"
+    },
+    {
+      "Code": "dark_green",
+      "keyID": "9",
+      "colorHEX": "#006400"
+    },
+    {
+      "Code": "mint",
+      "keyID": "10",
+      "colorHEX": "#98FF98"
+    },
+    {
+      "Code": "cyan",
+      "keyID": "11",
+      "colorHEX": "#00FFFF"
+    },
+    {
+      "Code": "teal",
+      "keyID": "12",
+      "colorHEX": "#008080"
+    },
+    {
+      "Code": "sky_blue",
+      "keyID": "13",
+      "colorHEX": "#87CEEB"
+    },
+    {
+      "Code": "blue",
+      "keyID": "14",
+      "colorHEX": "#0000FF"
+    },
+    {
+      "Code": "navy",
+      "keyID": "15",
+      "colorHEX": "#000080"
+    },
+    {
+      "Code": "purple",
+      "keyID": "16",
+      "colorHEX": "#800080"
+    },
+    {
+      "Code": "violet",
+      "keyID": "17",
+      "colorHEX": "#8A2BE2"
+    },
+    {
+      "Code": "magenta",
+      "keyID": "18",
+      "colorHEX": "#FF00FF"
+    },
+    {
+      "Code": "pink",
+      "keyID": "19",
+      "colorHEX": "#FFC0CB"
+    },
+    {
+      "Code": "brown",
+      "keyID": "20",
+      "colorHEX": "#8B4513"
+    },
+    {
+      "Code": "tan",
+      "keyID": "21",
+      "colorHEX": "#D2B48C"
+    },
+    {
+      "Code": "beige",
+      "keyID": "22",
+      "colorHEX": "#F5F5DC"
+    },
+    {
+      "Code": "gray",
+      "keyID": "23",
+      "colorHEX": "#808080"
+    },
+    {
+      "Code": "light_gray",
+      "keyID": "24",
+      "colorHEX": "#D3D3D3"
+    },
+    {
+      "Code": "dark_gray",
+      "keyID": "25",
+      "colorHEX": "#404040"
+    },
+    {
+      "Code": "silver",
+      "keyID": "26",
+      "colorHEX": "#C0C0C0"
+    },
+    {
+      "Code": "gold",
+      "keyID": "27",
+      "colorHEX": "#FFD700"
+    },
+    {
+      "Code": "bronze",
+      "keyID": "28",
+      "colorHEX": "#CD7F32"
+    },
+    {
+      "Code": "olive",
+      "keyID": "29",
+      "colorHEX": "#808000"
+    },
+    {
+      "Code": "maroon",
+      "keyID": "30",
+      "colorHEX": "#800000"
+    }
+  ]
+}

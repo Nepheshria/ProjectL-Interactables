@@ -1,0 +1,25 @@
+[
+  {
+    "label": "Build Vintage Story Mod (Cake)",
+    "command": "dotnet",
+    "args": [
+      "run",
+      "--project",
+      "./CakeBuild/CakeBuild.csproj",
+      "--"
+    ],
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "reveal": "always",
+    "hide": "never"
+  },
+  {
+    "label": "Build Vintage Story Mod",
+    "command": "dotnet",
+    "args": [
+      "build"
+    ],
+    "cwd": "${ZED_WORKTREE_ROOT}/ProjectL-Interactables",
+    "reveal": "always",
+    "hide": "never"
+  }
+]

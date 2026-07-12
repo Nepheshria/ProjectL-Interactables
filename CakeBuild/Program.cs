@@ -26,7 +26,7 @@ public static class Program
 
 public class BuildContext : FrostingContext
 {
-    public const string ProjectName = "ProjectL_Interactables";
+    public const string ProjectName = "ProjectL-Interactables";
     public string BuildConfiguration { get; }
     public string Version { get; }
     public string Name { get; }

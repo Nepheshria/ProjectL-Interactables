@@ -1,3 +1,7 @@
 {
-  "game:tabname-linteractables": "Labyrinth Interactables"
+  "game:tabname-linteractables": "Labyrinth Interactables",
+  "game:tabname-linteractablesitems": "Labyrinth Interactables Items",
+  "hello": "ProjectL-Interactables Loaded",
+  "lkey-title": "Labyrinth Keys",
+  "lkey-desc": "A key of the labyrinth, it's heavy and you see flash of light when you bring is close. It might not be a good idea to lick it. It exist in many colors each one linked to a door of the same color."
 }

@@ -1,5 +1,6 @@
 {
   "code": "ldoorblock",
+  "class": "linteractables.ldoorblock",
   "replaceable": 120,
   "requiredMiningTier": 169,
   "variantgroups": [
@@ -11,7 +12,10 @@
     "construction": ["*"],
     "linteractables": ["*"]
   },
-  "shape": { "base": "block/basic/cube" },
+  "attributes": {
+    "color": "{color}"
+  },
+  "shape": { "base": "game:block/basic/cube" },
   "drawtype": "cube",
   "heldTpIdleAnimation": "holdbothhandslarge",
   "heldRightReadyAnimation": "heldblockready",

@@ -1,0 +1,123 @@
+{
+  "code": "ldoorkey",
+  "class": "linteractables.ldoorkey",
+  "variantgroups": [
+    { "code": "color", "loadFromProperties": "linteractables:doorcolors" }
+  ],
+  "creativeinventory": {
+    "general": ["*"],
+    "items": ["*"],
+    "linteractablesitems": ["*"]
+  },
+  "shape": {
+    "base": "linteractables:item/key"
+  },
+  "textures": {
+    "wing": { "base": "game:block/metal/plate/bismuth" },
+    "core": { "base": "game:block/metal/plate/uranium" },
+    "color": { "base": "linteractables:color/colorfull-{color}" }
+  },
+  "behaviors": [
+    { "name": "GroundStorable" }
+    // {
+    //   "name": "ArtPigment", //TODO make work with custom color
+    //   "properties": {
+    //     "decorBlockCodes": ["caveart-charcoal-1-*"],
+    //     "paintableOnBlockMaterials": [
+    //       "Stone",
+    //       "Wood",
+    //       "Brick",
+    //       "Ceramic",
+    //       "Metal",
+    //       "Meta"
+    //     ],
+    //     "consumeChance": 0
+    //   }
+    // }
+  ],
+  "attributes": {
+    "color": "{color}",
+    "container": {
+      "displaycaseable": true,
+      "shelvable": true
+    },
+    "handbook": {
+      "include": true,
+      "groupByName": "*-ldoorkey-*"
+      // "extraSections": {
+      //   "text": "lkey-desc",
+      //   "title": "lkey-title"
+      // }
+    }
+  },
+  "storageFlags": 1,
+  "materialdensity": 19100,
+  "glowLevel": 50,
+  "guiTransform": {
+    "rotation": {
+      "x": -35,
+      "y": 15,
+      "z": 5
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 1.25
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.25,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 2
+  },
+  "fphandtransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 0.4
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 0.4
+  }
+}

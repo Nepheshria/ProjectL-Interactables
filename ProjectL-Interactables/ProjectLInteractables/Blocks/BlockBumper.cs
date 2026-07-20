@@ -38,7 +38,7 @@ namespace ProjectLInteractables.Blocks {
         }
 
         //Any code within this 'override' function will be called when a trampoline block is placed.
-        public override void OnBlockPlaced(IWorldAccessor world, BlockPos blockPos, ItemStack byItemStack = null) {
+        public override void OnBlockPlaced(IWorldAccessor world, BlockPos blockPos, ItemStack byItemStack) {
             //Log a message to the console.
             //Perform any default logic when our block is placed.
             if (this.Attributes != null && this.Attributes.Exists && this.Attributes["color"].Exists) {
@@ -56,6 +56,7 @@ namespace ProjectLInteractables.Blocks {
         }
 
         public override void OnEntityCollide(IWorldAccessor world, Entity entity, BlockPos pos, BlockFacing facing, Vec3d collideSpeed, bool isImpact) {
+            // Remove fall damage
             if (isImpact) {
                 if (facing.IsVertical) {
                     //TODO Remove fall damage

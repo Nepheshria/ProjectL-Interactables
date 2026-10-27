@@ -1,25 +1,18 @@
 [
   {
-    "label": "Build Vintage Story Mod (Cake)",
+    "label": "Build Vintage Story Mod INTER (Cake)",
     "command": "dotnet",
-    "args": [
-      "run",
-      "--project",
-      "./CakeBuild/CakeBuild.csproj",
-      "--"
-    ],
-    "cwd": "${ZED_WORKTREE_ROOT}",
+    "args": ["run", "--project", "./CakeBuild/CakeBuild.csproj", "--"],
+    "cwd": "${ZED_WORKTREE_ROOT}/ProjectL-Interactables/",
     "reveal": "always",
-    "hide": "never"
+    "hide": "never",
   },
   {
-    "label": "Build Vintage Story Mod",
+    "label": "Build Vintage Story Mod INTER",
     "command": "dotnet",
-    "args": [
-      "build"
-    ],
-    "cwd": "${ZED_WORKTREE_ROOT}/ProjectL-Interactables",
+    "args": ["build"],
+    "cwd": "${ZED_WORKTREE_ROOT}/ProjectL-Interactables/ProjectL-Interactables",
     "reveal": "always",
-    "hide": "never"
-  }
+    "hide": "never",
+  },
 ]

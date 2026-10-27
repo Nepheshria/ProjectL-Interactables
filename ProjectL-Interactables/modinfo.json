@@ -1,14 +1,12 @@
 {
-    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
-    "type": "Code",
-    "modid": "linteractables",
-    "name": "ProjectL Interactables",
-    "authors": [
-        "SleepyEyes"
-    ],
-    "description": "Door, Keys, Trap everything to make a good labyrinth",
-    "version": "1.0.0",
-    "dependencies": {
-        "game": "1.22.0"
-    }
+  "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+  "type": "Code",
+  "modid": "linteractables",
+  "name": "ProjectL Interactables",
+  "authors": ["SleepyEyes"],
+  "description": "Door, Keys, Trap everything to make a good labyrinth",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "1.22.0"
+  }
 }

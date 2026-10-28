@@ -1,0 +1,107 @@
+{
+  "code": "lfkey",
+  "class": "linteractables.lfkey",
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "linteractablesitems": [
+      "*"
+    ]
+  },
+  "shape": {
+    "base": "linteractables:item/fkey"
+  },
+  "textures": {},
+  "behaviors": [
+    {
+      "name": "GroundStorable"
+    }
+  ],
+  "attributes": {
+    "container": {
+      "displaycaseable": true,
+      "shelvable": true
+    },
+    "handbook": {
+      "include": true,
+      "extraSections": {
+        "text": "linteractables:lfkey-desc",
+        "title": "linteractables:lfkey-title"
+      }
+    }
+  },
+  "storageFlags": 1,
+  "materialdensity": 19100,
+  "glowLevel": 50,
+  "guiTransform": {
+    "rotation": {
+      "x": -35,
+      "y": 15,
+      "z": 5
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 1.25
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.25,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 2
+  },
+  "fphandtransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 0.4
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 0.4
+  }
+}

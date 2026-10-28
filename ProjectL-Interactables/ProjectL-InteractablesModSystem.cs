@@ -19,9 +19,11 @@ public class ProjectL_InteractablesModSystem : ModSystem {
         api.RegisterBlockClass(Mod.Info.ModID + ".bumper", typeof(BlockBumper));
         api.RegisterBlockClass(Mod.Info.ModID + ".ldoorblock", typeof(BlockLDoorBlock));
         api.RegisterBlockClass(Mod.Info.ModID + ".ldoorkeyhole", typeof(BlockLDoorKeyhole));
+        api.RegisterBlockClass(Mod.Info.ModID + ".lfgate", typeof(BlockLFGate));
 
         // Register Items
         api.RegisterItemClass(Mod.Info.ModID + ".ldoorkey", typeof(ItemLDoorKey));
+        api.RegisterItemClass(Mod.Info.ModID + ".lfkey", typeof(ItemLFKey));
     }
 
     public override void StartServerSide(ICoreServerAPI api) {

@@ -35,5 +35,23 @@ namespace ProjectLInteractables.Blocks {
             }
             return list;
         }
+
+        public List<BlockPos> OppenFinalGate(IWorldAccessor world, BlockPos pos, IPlayer byPlayer, List<BlockPos> list) {
+            list.Add(pos);
+            for (int x = -1; x <= 1; x++) {
+                for (int y = -1; y <= 1; y++) {
+                    for (int z = -1; z <= 1; z++) {
+                        BlockPos n_pos = new BlockPos(pos.X + x, pos.Y + y, pos.Z + z);
+                        Block n_block = world.BulkBlockAccessor.GetBlock(n_pos);
+                        if (n_block is BlockLDoorBlock &&
+                            !list.Exists(p => p.X == n_pos.X && p.Y == n_pos.Y && p.Z == n_pos.Z)
+                        ) {
+                            list = ((BlockLDoorBlock)n_block).OppenFinalGate(world, n_pos, byPlayer, list);
+                        }
+                    }
+                }
+            }
+            return list;
+        }
     }
 }

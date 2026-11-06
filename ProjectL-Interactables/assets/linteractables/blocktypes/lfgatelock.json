@@ -1,24 +1,8 @@
 {
-  "code": "lfgate",
-  "class": "linteractables.lfgate",
+  "code": "lfgatelock",
+  "class": "linteractables.lfgatelock",
   "replaceable": 120,
   "requiredMiningTier": 169,
-  "variantgroups": [
-    {
-      "code": "place",
-      "states": [
-        "L",
-        "R",
-        "C",
-        "UL",
-        "UR",
-        "UC",
-        "DL",
-        "DR",
-        "DC"
-      ]
-    }
-  ],
   "creativeinventory": {
     "general": [
       "*"
@@ -39,7 +23,7 @@
   "heldTpUseAnimation": "twohandplaceblock",
   "textures": {
     "all": {
-      "base": "linteractables:block/fgate/fgate-{place}"
+      "base": "linteractables:block/fgate/fgate-C"
     }
   },
   "sounds": {

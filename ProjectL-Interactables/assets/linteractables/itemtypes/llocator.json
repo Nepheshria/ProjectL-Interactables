@@ -1,0 +1,99 @@
+{
+  "code": "llocator",
+  "class": "linteractables.llocator",
+  "creativeinventory": {
+    "general": [
+      "*"
+    ],
+    "items": [
+      "*"
+    ],
+    "linteractablesitems": [
+      "*"
+    ]
+  },
+  "shape": {
+    "base": "linteractables:item/locator"
+  },
+  "textures": {},
+  "behaviors": [
+    {
+      "name": "GroundStorable"
+    }
+  ],
+  "attributes": {
+    "target": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "container": {
+      "displaycaseable": true,
+      "shelvable": true
+    },
+    "handbook": {
+      "include": true,
+      "extraSections": {
+        "text": "linteractables:llocator-desc",
+        "title": "linteractables:llocator-title"
+      }
+    }
+  },
+  "storageFlags": 1,
+  "materialdensity": 7874,
+  "glowLevel": 20,
+  "guiTransform": {
+    "translation": {
+      "x": 3,
+      "y": 5,
+      "z": -14
+    },
+    "rotation": {
+      "x": -70,
+      "y": -10,
+      "z": 27
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 1.0
+  },
+  "groundTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0.25,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 2
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -0.85,
+      "y": 0,
+      "z": 0.5
+    },
+    "rotation": {
+      "x": 0,
+      "y": -90,
+      "z": 0
+    },
+    "origin": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": 0.5
+  }
+}

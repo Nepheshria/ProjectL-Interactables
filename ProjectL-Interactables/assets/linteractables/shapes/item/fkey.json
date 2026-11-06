@@ -5,7 +5,7 @@
     "attachments": []
   },
   "textures": {
-    "texture1": "color/colorfull-purple"
+    "metal": "linteractables:color/colorfull-purple"
   },
   "elements": [
     {
@@ -269,17 +269,9 @@
           "texture": "#metal",
           "uv":[0.0,0.0,1.0,1.0]
         },
-        "east": {
-          "texture": "#metal",
-          "uv":[0.0,0.0,2.0,1.0]
-        },
         "south": {
           "texture": "#metal",
           "uv":[0.0,0.0,1.0,1.0]
-        },
-        "west": {
-          "texture": "#metal",
-          "uv":[0.0,0.0,2.0,1.0]
         },
         "up": {
           "texture": "#metal",
@@ -377,10 +369,6 @@
           "texture": "#metal",
           "uv":[0.0,0.0,3.0,1.0]
         },
-        "east": {
-          "texture": "#metal",
-          "uv":[0.0,0.0,1.0,1.0]
-        },
         "south": {
           "texture": "#metal",
           "uv":[0.0,0.0,3.0,1.0]
@@ -410,10 +398,6 @@
       "to":[7.0,1.0,13.0],
       "faces": {
         "north": {
-          "texture": "#metal",
-          "uv":[0.0,0.0,2.0,1.0]
-        },
-        "east": {
           "texture": "#metal",
           "uv":[0.0,0.0,2.0,1.0]
         },
@@ -457,10 +441,6 @@
           "texture": "#metal",
           "uv":[0.0,0.0,1.0,1.0]
         },
-        "west": {
-          "texture": "#metal",
-          "uv":[0.0,0.0,2.0,1.0]
-        },
         "up": {
           "texture": "#metal",
           "uv":[0.0,0.0,1.0,2.0]
@@ -484,10 +464,6 @@
         "north": {
           "texture": "#metal",
           "uv":[0.0,0.0,1.0,1.0]
-        },
-        "east": {
-          "texture": "#metal",
-          "uv":[0.0,0.0,10.0,1.0]
         },
         "south": {
           "texture": "#metal",
@@ -626,10 +602,6 @@
       "to":[2.0,1.0,22.0],
       "faces": {
         "north": {
-          "texture": "#metal",
-          "uv":[0.0,0.0,1.0,1.0]
-        },
-        "east": {
           "texture": "#metal",
           "uv":[0.0,0.0,1.0,1.0]
         },
@@ -877,17 +849,9 @@
       "from":[3.0,0.0,25.0],
       "to":[5.0,1.0,26.0],
       "faces": {
-        "north": {
-          "texture": "#metal",
-          "uv":[0.0,0.0,2.0,1.0]
-        },
         "east": {
           "texture": "#metal",
           "uv":[0.0,0.0,1.0,1.0]
-        },
-        "south": {
-          "texture": "#metal",
-          "uv":[0.0,0.0,2.0,1.0]
         },
         "west": {
           "texture": "#metal",
@@ -916,10 +880,6 @@
         "north": {
           "texture": "#metal",
           "uv":[0.0,0.0,11.0,1.0]
-        },
-        "east": {
-          "texture": "#metal",
-          "uv":[0.0,0.0,1.0,1.0]
         },
         "south": {
           "texture": "#metal",
@@ -1093,17 +1053,9 @@
       "from":[13.0,0.0,24.0],
       "to":[15.0,1.0,25.0],
       "faces": {
-        "north": {
-          "texture": "#metal",
-          "uv":[0.0,0.0,2.0,1.0]
-        },
         "east": {
           "texture": "#metal",
           "uv":[0.0,0.0,1.0,1.0]
-        },
-        "south": {
-          "texture": "#metal",
-          "uv":[0.0,0.0,2.0,1.0]
         },
         "west": {
           "texture": "#metal",
@@ -1132,10 +1084,6 @@
         "north": {
           "texture": "#metal",
           "uv":[0.0,0.0,4.0,1.0]
-        },
-        "east": {
-          "texture": "#metal",
-          "uv":[0.0,0.0,1.0,1.0]
         },
         "south": {
           "texture": "#metal",
@@ -1269,32 +1217,11 @@
       "uv":[0.0,0.0]
     }
   ],
-  "animations": [
-    {
-      "quantityframes": 360,
-      "name": "GemSpin",
-      "code": "gemspin",
-      "keyframes": [
-        {
-          "frame": 0,
-          "elements": {}
-        },
-        {
-          "frame": 180,
-          "elements": {}
-        },
-        {
-          "frame": 359,
-          "elements": {}
-        }
-      ],
-      "onActivityStopped": "Rewind"
-    }
-  ],
+  "animations": [],
   "textureWidth": 16,
   "textureHeight": 16,
   "textureSizes": {
-    "texture1": [
+    "metal": [
       16,
       16
     ]

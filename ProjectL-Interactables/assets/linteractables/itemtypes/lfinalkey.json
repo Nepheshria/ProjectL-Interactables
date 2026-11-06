@@ -16,11 +16,6 @@
     "base": "linteractables:item/fkey"
   },
   "textures": {},
-  "behaviors": [
-    {
-      "name": "GroundStorable"
-    }
-  ],
   "attributes": {
     "container": {
       "displaycaseable": true,
@@ -38,27 +33,22 @@
   "materialdensity": 19100,
   "glowLevel": 50,
   "guiTransform": {
-    "rotation": {
-      "x": -35,
-      "y": 15,
-      "z": 5
-    },
-    "origin": {
+    "translation": {
       "x": 0,
+      "y": -5,
+      "z": 0
+    },
+    "rotation": {
+      "x": -90,
       "y": 0,
       "z": 0
     },
-    "scale": 1.25
+    "scale": 0.65
   },
   "groundTransform": {
     "translation": {
-      "x": 0,
-      "y": 0.25,
-      "z": 0
-    },
-    "rotation": {
-      "x": 0,
-      "y": 90,
+      "x": -11,
+      "y": -17,
       "z": 0
     },
     "origin": {
@@ -66,35 +56,17 @@
       "y": 0,
       "z": 0
     },
-    "scale": 2
-  },
-  "fphandtransform": {
-    "translation": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "rotation": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "origin": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "scale": 0.4
+    "scale": 0.75
   },
   "tpHandTransform": {
     "translation": {
-      "x": 0,
-      "y": 0,
+      "x": -1.5,
+      "y": 1,
       "z": 0
     },
     "rotation": {
-      "x": 0,
-      "y": 0,
+      "x": -90,
+      "y": -51,
       "z": 0
     },
     "origin": {
@@ -102,6 +74,6 @@
       "y": 0,
       "z": 0
     },
-    "scale": 0.4
+    "scale": 0.25
   }
 }

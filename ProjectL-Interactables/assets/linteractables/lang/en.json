@@ -2,6 +2,21 @@
   "game:tabname-linteractables": "Labyrinth Interactables",
   "game:tabname-linteractablesitems": "Labyrinth Interactables Items",
   "hello": "ProjectL-Interactables Loaded",
-  "lkey-title": "Labyrinth Keys",
-  "lkey-desc": "A key of the labyrinth, it's heavy and you see flash of light when you bring is close. It might not be a good idea to lick it. It exist in many colors each one linked to a door of the same color."
+  "linteractables:lkey-title": "Labyrinth Keys",
+  "linteractables:lkey-desc": "A key of the labyrinth, it's heavy and you see flash of light when you bring is close. It might not be a good idea to lick it. It exist in many colors each one linked to a door of the same color.",
+  "linteractables:lfkey-title": "Final Gate Key",
+  "linteractables:lfkey-desc": "The key to the final gate. There is no going back now.",
+  "linteractables:llocator-title": "Locator",
+  "linteractables:llocator-desc": "This tool will guide you to it's programmed coordinates.",
+  "linteractables:block-lfgate-l": "Final Gate",
+  "linteractables:block-lfgate-r": "Final Gate",
+  "linteractables:block-lfgate-c": "Final Gate",
+  "linteractables:block-lfgate-dl": "Final Gate",
+  "linteractables:block-lfgate-ur": "Final Gate",
+  "linteractables:block-lfgate-uc": "Final Gate",
+  "linteractables:block-lfgate-ul": "Final Gate",
+  "linteractables:block-lfgate-dr": "Final Gate",
+  "linteractables:block-lfgate-dc": "Final Gate",
+  "linteractables:item-llocator": "Locator",
+  "linteractables:item-lfkey": "Final Gate Key"
 }

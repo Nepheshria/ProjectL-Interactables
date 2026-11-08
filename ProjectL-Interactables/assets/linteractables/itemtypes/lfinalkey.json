@@ -23,10 +23,12 @@
     },
     "handbook": {
       "include": true,
-      "extraSections": {
-        "text": "linteractables:lfkey-desc",
-        "title": "linteractables:lfkey-title"
-      }
+      "extraSections": [
+        {
+          "text": "linteractables:lfkey-desc",
+          "title": "linteractables:lfkey-title"
+        }
+      ]
     }
   },
   "storageFlags": 1,

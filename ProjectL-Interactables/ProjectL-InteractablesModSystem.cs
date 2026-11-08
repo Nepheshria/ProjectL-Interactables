@@ -23,6 +23,7 @@ public class ProjectL_InteractablesModSystem : ModSystem {
         api.RegisterBlockClass(Mod.Info.ModID + ".ldoorblock", typeof(BlockLDoorBlock));
         api.RegisterBlockClass(Mod.Info.ModID + ".ldoorkeyhole", typeof(BlockLDoorKeyhole));
         api.RegisterBlockClass(Mod.Info.ModID + ".lfgatelock", typeof(BlockLFGateLock));
+        api.RegisterBlockClass(Mod.Info.ModID + ".portal", typeof(BlockPortal));
 
         // Register Items
         api.RegisterItemClass(Mod.Info.ModID + ".ldoorkey", typeof(ItemLDoorKey));
@@ -34,18 +35,18 @@ public class ProjectL_InteractablesModSystem : ModSystem {
         base.StartServerSide(api);
         Mod.Logger.Notification("Hello from Interactables ready to Labyrinth!");
 
-        AssetLocation sound = new(Mod.Info.ModID + ":sounds/effect/BipBoup");
-
         api.ChatCommands.Create("setlocator")
             .WithDescription("Configure the locator target")
             .RequiresPrivilege(Privilege.chat)
             .RequiresPlayer()
             .HandleWith((args) => {
                 var byEntity = args.Caller.Entity;
+                AssetLocation sound = new(Mod.Info.ModID + ":sounds/effect/BipBoup");
                 byEntity.World.PlaySoundAt(sound, byEntity);
                 Vec3i pos = byEntity.Pos.AsBlockPos.AsVec3i;
                 IPlayer byPlayer = args.Caller.Player;
                 IPlayerInventoryManager inventoryManager = byPlayer.InventoryManager;
+
 
                 if (inventoryManager.ActiveHotbarSlot != null) {
                     // Hotbar selected
@@ -68,6 +69,21 @@ public class ProjectL_InteractablesModSystem : ModSystem {
                 }
 
                 return TextCommandResult.Error(Lang.Get(Mod.Info.ModID + ":nolocator"));
+            });
+
+        api.ChatCommands.Create("setPortal")
+            .WithDescription("Configure the portal target")
+            .RequiresPrivilege(Privilege.chat)
+            .RequiresPlayer()
+            .HandleWith((args) => {
+                var byEntity = args.Caller.Entity;
+                AssetLocation sound = new(Mod.Info.ModID + ":sounds/effect/Pop");
+                byEntity.World.PlaySoundAt(sound, byEntity);
+                Vec3d pos = byEntity.Pos.XYZ;
+
+                BlockPortal.portal_location = pos;
+
+                return TextCommandResult.Success();
             });
     }
 

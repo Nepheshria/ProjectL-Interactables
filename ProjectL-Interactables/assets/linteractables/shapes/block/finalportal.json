@@ -1,0 +1,1003 @@
+{
+  "editor": {
+    "allAngles": true,
+    "backdrops": [],
+    "attachments": []
+  },
+  "textures": {
+    "core": "linteractables:color/colorfull-gold",
+    "texture1": "linteractables:color/colorfull-red",
+    "texture2": "linteractables:color/colorfull-purple",
+    "texture3": "linteractables:color/colorfull-navy",
+    "texture4": "linteractables:color/colorfull-lime",
+    "texture5": "linteractables:color/colorfull-dark_red",
+    "texture6": "linteractables:color/colorfull-bronze",
+    "texture7": "linteractables:color/colorfull-pink"
+  },
+  "elements": [
+    {
+      "name": "Core",
+      "from": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "to": [
+        10.0,
+        10.0,
+        10.0
+      ],
+      "faces": {
+        "north": {
+          "texture": "#core",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ]
+        },
+        "east": {
+          "texture": "#core",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "#core",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ]
+        },
+        "west": {
+          "texture": "#core",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ]
+        },
+        "up": {
+          "texture": "#core",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ]
+        },
+        "down": {
+          "texture": "#core",
+          "uv": [
+            0.0,
+            0.0,
+            4.0,
+            4.0
+          ]
+        }
+      },
+      "rotationOrigin": [
+        8.0,
+        8.0,
+        8.0
+      ],
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "children": [
+        {
+          "name": "Wing_1",
+          "from": [
+            -3.0,
+            -3.0,
+            1.75
+          ],
+          "to": [
+            7.0,
+            7.0,
+            2.25
+          ],
+          "faces": {
+            "north": {
+              "texture": "#texture1",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                10.0
+              ]
+            },
+            "east": {
+              "texture": "#texture1",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                10.0
+              ]
+            },
+            "south": {
+              "texture": "#texture1",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                10.0
+              ]
+            },
+            "west": {
+              "texture": "#texture1",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                10.0
+              ]
+            },
+            "up": {
+              "texture": "#texture1",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                0.5
+              ]
+            },
+            "down": {
+              "texture": "#texture1",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                0.5
+              ]
+            }
+          },
+          "rotationOrigin": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "uv": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Wing_2",
+          "from": [
+            -3.0,
+            -3.0,
+            1.75
+          ],
+          "to": [
+            7.0,
+            7.0,
+            2.25
+          ],
+          "faces": {
+            "north": {
+              "texture": "#texture2",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                10.0
+              ]
+            },
+            "east": {
+              "texture": "#texture2",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                10.0
+              ]
+            },
+            "south": {
+              "texture": "#texture2",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                10.0
+              ]
+            },
+            "west": {
+              "texture": "#texture2",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                10.0
+              ]
+            },
+            "up": {
+              "texture": "#texture2",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                0.5
+              ]
+            },
+            "down": {
+              "texture": "#texture2",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                0.5
+              ]
+            }
+          },
+          "rotationOrigin": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "rotationY": 84.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "uv": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Wing_3",
+          "from": [
+            -3.0,
+            -3.0,
+            1.75
+          ],
+          "to": [
+            7.0,
+            7.0,
+            2.25
+          ],
+          "faces": {
+            "north": {
+              "texture": "#texture3",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                10.0
+              ]
+            },
+            "east": {
+              "texture": "#texture3",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                10.0
+              ]
+            },
+            "south": {
+              "texture": "#texture3",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                10.0
+              ]
+            },
+            "west": {
+              "texture": "#texture3",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                10.0
+              ]
+            },
+            "up": {
+              "texture": "#texture3",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                0.5
+              ]
+            },
+            "down": {
+              "texture": "#texture3",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                0.5
+              ]
+            }
+          },
+          "rotationOrigin": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "rotationX": -90.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "uv": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Wing_4",
+          "from": [
+            -3.0,
+            -3.0,
+            1.75
+          ],
+          "to": [
+            7.0,
+            7.0,
+            2.25
+          ],
+          "faces": {
+            "north": {
+              "texture": "#texture4",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                10.0
+              ]
+            },
+            "east": {
+              "texture": "#texture4",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                10.0
+              ]
+            },
+            "south": {
+              "texture": "#texture4",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                10.0
+              ]
+            },
+            "west": {
+              "texture": "#texture4",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                10.0
+              ]
+            },
+            "up": {
+              "texture": "#texture4",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                0.5
+              ]
+            },
+            "down": {
+              "texture": "#texture4",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                0.5
+              ]
+            }
+          },
+          "rotationOrigin": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "rotationY": -45.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "uv": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Wing_5",
+          "from": [
+            -3.0,
+            -3.0,
+            1.75
+          ],
+          "to": [
+            7.0,
+            7.0,
+            2.25
+          ],
+          "faces": {
+            "north": {
+              "texture": "#texture5",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                10.0
+              ]
+            },
+            "east": {
+              "texture": "#texture5",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                10.0
+              ]
+            },
+            "south": {
+              "texture": "#texture5",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                10.0
+              ]
+            },
+            "west": {
+              "texture": "#texture5",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                10.0
+              ]
+            },
+            "up": {
+              "texture": "#texture5",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                0.5
+              ]
+            },
+            "down": {
+              "texture": "#texture5",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                0.5
+              ]
+            }
+          },
+          "rotationOrigin": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "rotationY": 45.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "uv": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Wing_6",
+          "from": [
+            -3.0,
+            -3.0,
+            1.75
+          ],
+          "to": [
+            7.0,
+            7.0,
+            2.25
+          ],
+          "faces": {
+            "north": {
+              "texture": "#texture6",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                10.0
+              ]
+            },
+            "east": {
+              "texture": "#texture6",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                10.0
+              ]
+            },
+            "south": {
+              "texture": "#texture6",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                10.0
+              ]
+            },
+            "west": {
+              "texture": "#texture6",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                10.0
+              ]
+            },
+            "up": {
+              "texture": "#texture6",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                0.5
+              ]
+            },
+            "down": {
+              "texture": "#texture6",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                0.5
+              ]
+            }
+          },
+          "rotationOrigin": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "rotationX": -90.0,
+          "rotationY": -45.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "uv": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "Wing_7",
+          "from": [
+            -3.0,
+            -3.0,
+            1.75
+          ],
+          "to": [
+            7.0,
+            7.0,
+            2.25
+          ],
+          "faces": {
+            "north": {
+              "texture": "#texture7",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                10.0
+              ]
+            },
+            "east": {
+              "texture": "#texture7",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                10.0
+              ]
+            },
+            "south": {
+              "texture": "#texture7",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                10.0
+              ]
+            },
+            "west": {
+              "texture": "#texture7",
+              "uv": [
+                0.0,
+                0.0,
+                0.5,
+                10.0
+              ]
+            },
+            "up": {
+              "texture": "#texture7",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                0.5
+              ]
+            },
+            "down": {
+              "texture": "#texture7",
+              "uv": [
+                0.0,
+                0.0,
+                10.0,
+                0.5
+              ]
+            }
+          },
+          "rotationOrigin": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "rotationX": -90.0,
+          "rotationY": 45.0,
+          "scaleX": 1.0,
+          "scaleY": 1.0,
+          "scaleZ": 1.0,
+          "uv": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "uv": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "quantityframes": 30,
+      "name": "Spin",
+      "code": "spin",
+      "keyframes": [
+        {
+          "frame": 0,
+          "elements": {
+            "Wing_6": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "Wing_1": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "Wing_2": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "Wing_3": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "Wing_4": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "Wing_5": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "Wing_7": {
+              "rotationX": -97.0,
+              "rotationY": 77.0,
+              "rotationZ": -54.0
+            }
+          }
+        },
+        {
+          "frame": 5,
+          "elements": {
+            "Wing_7": {
+              "rotationX": -161.0,
+              "rotationY": -83.0,
+              "rotationZ": 47.0
+            },
+            "Wing_1": {
+              "rotationX": 25.0,
+              "rotationY": 51.0,
+              "rotationZ": -56.0
+            },
+            "Wing_2": {
+              "rotationX": -140.0,
+              "rotationY": 95.0,
+              "rotationZ": -92.0
+            },
+            "Wing_3": {
+              "rotationX": -104.0,
+              "rotationY": 121.0,
+              "rotationZ": -111.0
+            },
+            "Wing_4": {
+              "rotationX": 113.0,
+              "rotationY": -110.0,
+              "rotationZ": 81.0
+            },
+            "Wing_5": {
+              "rotationX": 91.0,
+              "rotationY": -124.0,
+              "rotationZ": 95.0
+            },
+            "Wing_6": {
+              "rotationX": -164.0,
+              "rotationY": 89.0,
+              "rotationZ": -90.0
+            }
+          }
+        },
+        {
+          "frame": 10,
+          "elements": {
+            "Wing_7": {
+              "rotationX": 108.0,
+              "rotationY": -95.0,
+              "rotationZ": 104.0
+            },
+            "Wing_1": {
+              "rotationX": -121.0,
+              "rotationY": 40.375,
+              "rotationZ": -44.333332061767578
+            },
+            "Wing_2": {
+              "rotationX": 95.0,
+              "rotationY": -54.0,
+              "rotationZ": 52.0
+            },
+            "Wing_3": {
+              "rotationX": 51.0,
+              "rotationY": -93.0,
+              "rotationZ": 13.0
+            },
+            "Wing_4": {
+              "rotationX": 13.0,
+              "rotationY": -180.0,
+              "rotationZ": -80.0
+            },
+            "Wing_5": {
+              "rotationX": -52.0,
+              "rotationY": -180.0,
+              "rotationZ": 179.0
+            },
+            "Wing_6": {
+              "rotationX": -116.0,
+              "rotationY": 29.333333969116211,
+              "rotationZ": 111.0
+            }
+          }
+        },
+        {
+          "frame": 15,
+          "elements": {
+            "Wing_7": {
+              "rotationX": -80.0,
+              "rotationY": 99.0,
+              "rotationZ": -50.0
+            },
+            "Wing_1": {
+              "rotationX": 42.0,
+              "rotationY": 25.5,
+              "rotationZ": -28.0
+            },
+            "Wing_2": {
+              "rotationX": -63.0,
+              "rotationY": 115.0,
+              "rotationZ": -118.0
+            },
+            "Wing_3": {
+              "rotationX": -36.0,
+              "rotationY": 78.0,
+              "rotationZ": -46.0
+            },
+            "Wing_4": {
+              "rotationX": 116.0,
+              "rotationY": -103.0,
+              "rotationZ": 58.0
+            },
+            "Wing_5": {
+              "rotationX": 78.0,
+              "rotationY": -9.0,
+              "rotationZ": -140.0
+            },
+            "Wing_6": {
+              "rotationX": 108.0,
+              "rotationY": 44.0,
+              "rotationZ": -100.0
+            }
+          }
+        },
+        {
+          "frame": 20,
+          "elements": {
+            "Wing_7": {
+              "rotationX": 15.0,
+              "rotationY": -36.0,
+              "rotationZ": 80.0
+            },
+            "Wing_1": {
+              "rotationX": 24.5,
+              "rotationY": -147.0,
+              "rotationZ": -16.333333969116211
+            },
+            "Wing_2": {
+              "rotationX": 28.0,
+              "rotationY": -56.0,
+              "rotationZ": 54.0
+            },
+            "Wing_3": {
+              "rotationX": -127.0,
+              "rotationY": 118.0,
+              "rotationZ": -60.0
+            },
+            "Wing_4": {
+              "rotationX": -56.0,
+              "rotationY": 78.0,
+              "rotationZ": -77.0
+            },
+            "Wing_5": {
+              "rotationX": 121.0,
+              "rotationY": -150.0,
+              "rotationZ": 75.0
+            },
+            "Wing_6": {
+              "rotationX": -56.0,
+              "rotationY": -144.0,
+              "rotationZ": 95.0
+            }
+          }
+        },
+        {
+          "frame": 25,
+          "elements": {
+            "Wing_7": {
+              "rotationX": -132.0,
+              "rotationY": 111.0,
+              "rotationZ": -47.0
+            },
+            "Wing_1": {
+              "rotationX": -130.0,
+              "rotationY": 34.0,
+              "rotationZ": -61.0
+            },
+            "Wing_2": {
+              "rotationX": -121.0,
+              "rotationY": 77.0,
+              "rotationZ": -50.0
+            },
+            "Wing_3": {
+              "rotationX": 122.0,
+              "rotationY": -100.0,
+              "rotationZ": 91.0
+            },
+            "Wing_4": {
+              "rotationX": 101.0,
+              "rotationY": -110.0,
+              "rotationZ": 85.0
+            },
+            "Wing_5": {
+              "rotationX": 125.0,
+              "rotationY": -70.0,
+              "rotationZ": 87.0
+            },
+            "Wing_6": {
+              "rotationX": 108.0,
+              "rotationY": -180.0,
+              "rotationZ": -71.0
+            }
+          }
+        },
+        {
+          "frame": 29,
+          "elements": {
+            "Wing_2": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "Wing_1": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "Wing_3": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "Wing_4": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "Wing_5": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "Wing_6": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            },
+            "Wing_7": {
+              "rotationX": 0.0,
+              "rotationY": 0.0,
+              "rotationZ": 0.0
+            }
+          }
+        }
+      ],
+      "onActivityStopped": "Stop"
+    }
+  ],
+  "textureWidth": 16,
+  "textureHeight": 16,
+  "textureSizes": {
+    "core": [
+      16,
+      16
+    ],
+    "texture1": [
+      16,
+      16
+    ],
+    "texture2": [
+      16,
+      16
+    ],
+    "texture3": [
+      16,
+      16
+    ],
+    "texture4": [
+      16,
+      16
+    ],
+    "texture5": [
+      16,
+      16
+    ],
+    "texture6": [
+      16,
+      16
+    ],
+    "texture7": [
+      16,
+      16
+    ]
+  }
+}
